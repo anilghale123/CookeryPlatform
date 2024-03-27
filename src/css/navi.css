@@ -1,0 +1,19 @@
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style-type: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+ul li{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+ul li:hover{
+    color: red;
+}

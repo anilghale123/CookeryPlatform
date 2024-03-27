@@ -1,0 +1,35 @@
+
+
+.hero-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: greenyellow; */
+    padding: 2rem;
+}
+
+.hero-wrapper > div:nth-child(2) > img
+{
+    max-width: 30rem;
+    border-radius: 2rem;
+    border: 2px solid yellow;
+    
+}
+
+.hero-wrapper > div:first-child{
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+@media(max-width:750px)
+{
+    .hero-wrapper > div:nth-child(2) > img
+    {
+        max-width: 15rem;
+        object-fit: cover;
+        /* max-height: 45rem; */
+    } 
+    .hero-wrapper > div:first-child h1{ 
+        font-size: 1rem;
+
+    }
+}
